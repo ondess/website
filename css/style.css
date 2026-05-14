@@ -284,9 +284,12 @@ h1, h2, h3, h4, h5, h6 {
 	-o-transition: 0.3s all ease;
 	-ms-transition: 0.3s all ease;
 	transition: 0.3s all ease;
+	background: #1f61b0;
+	box-shadow: 0 14px 30px rgba(31, 97, 176, 0.24);
 }
 .button:hover{
-	color: #fff;	
+	color: #fff;
+	background: #2469c1;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -298,9 +301,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 .button i{
 	padding-right: 10px;
-	color: #232323;
+	color: #ffffff;
 	font-size: 25px;
 }
+
+.item-work{
+	padding: 5px;
+	background: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	text-align: center;
+	margin-bottom: 30px;
+	box-shadow: 0 18px 60px rgba(0, 0, 0, 0.06);
+	border-radius: 18px;
+}
+.item-work .overlay{
+	background: rgba(31, 97, 176, 0.58);
+}
+.item-work .info a{
+	display: block;
+	color: #1f61b0;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+}
+.item-work .info a:hover{
+	color: #164b87;
+}
+
 .heading-progress{
 	padding:0 0 5px 0;
 	font-weight: lighter;

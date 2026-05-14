@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1f3d"/>
+      <stop offset="100%" stop-color="#223e82"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8bd1ff" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#4a6fff" stop-opacity="0.22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="30" fill="url(#bg)"/>
+  <rect x="280" y="80" width="640" height="740" rx="80" fill="#0d2b5b" stroke="#5d89d1" stroke-width="10"/>
+  <rect x="340" y="150" width="520" height="560" rx="60" fill="url(#glow)" opacity="0.35"/>
+  <rect x="520" y="740" width="160" height="20" rx="10" fill="#ffffff" opacity="0.7"/>
+  <circle cx="600" cy="740" r="14" fill="#ffffff"/>
+  <path d="M390 260C430 210 510 230 560 260C610 290 690 250 740 280C790 310 780 360 740 400C700 440 640 450 590 460C540 470 470 470 430 440C390 410 370 340 390 310Z" fill="#ffffff" opacity="0.22"/>
+  <path d="M420 310C450 270 520 290 560 330C600 370 660 360 700 380C740 400 760 440 750 460C740 480 700 490 660 500C620 510 580 520 540 510C500 500 470 470 440 430C410 390 400 340 420 310Z" fill="#9ac5ff" opacity="0.76"/>
+  <path d="M450 370C470 360 500 370 520 390C540 410 560 430 590 420C620 410 650 390 680 390C710 390 730 420 730 450C730 480 700 500 670 510C640 520 610 520 580 515C550 510 520 500 490 470C460 440 440 400 450 370Z" fill="#ffffff" opacity="0.4"/>
+  <text x="600" y="620" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Stable Diffusion</text>
+  <text x="600" y="690" text-anchor="middle" fill="#d8e7ff" font-family="Arial, Helvetica, sans-serif" font-size="30">iOS App / Game Art Tools</text>
+  <rect x="390" y="500" width="420" height="100" rx="30" fill="#ffffff" opacity="0.08"/>
+  <rect x="470" y="530" width="260" height="10" rx="5" fill="#ffffff" opacity="0.65"/>
+  <rect x="470" y="560" width="220" height="10" rx="5" fill="#ffffff" opacity="0.45"/>
+  <rect x="470" y="590" width="180" height="10" rx="5" fill="#ffffff" opacity="0.35"/>
+</svg>
